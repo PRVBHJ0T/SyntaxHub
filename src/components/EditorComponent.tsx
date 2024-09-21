@@ -57,6 +57,7 @@ export default function EditorComponent() {
         const res = await compileCode(Requestdata);
         setoutput(res.run.output.split("\n"));
         console.log(res);
+        setloading(false);
 
     } catch (error) {
         setloading(false);
