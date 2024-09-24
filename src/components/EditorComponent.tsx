@@ -99,7 +99,7 @@ export default function EditorComponent() {
               <Editor
                 theme={theme === "dark" ? "vs-dark" : "vs-light"}
                 height="100vh"
-                defaultLanguage={languageOption.language}
+                language={languageOption.language}
                 defaultValue={sourceCode}
                 value={sourceCode}
                 onMount={handleEditorDidMount}
