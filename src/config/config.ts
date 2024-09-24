@@ -58,7 +58,7 @@ export const languageOptions = [
       "runtime": "gcc"
     },
     {
-      "language": "c++",
+      "language": "cpp",
       "version": "10.2.0",
       "aliases": [
         "cpp",
@@ -67,7 +67,7 @@ export const languageOptions = [
       "runtime": "gcc"
     },
     {
-      "language": "java",
+      "language": "Java",
       "version": "15.0.2",
       "aliases": []
     }
