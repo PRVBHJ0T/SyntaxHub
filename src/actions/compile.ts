@@ -1,7 +1,13 @@
 "use server"
 import axios from 'axios'
 
-export async function compileCode(data:any) {
+export async function compileCode(data: {
+    language: string;
+    version: string;
+    files: {
+        content: string;
+    }[];
+}) {
     const endpoint = 'https://emkc.org/api/v2/piston/execute';
    
 
