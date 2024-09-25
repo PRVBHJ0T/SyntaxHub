@@ -22,11 +22,6 @@ export const languageOptions = [
       ]
     },
     {
-      "language": "php",
-      "version": "8.2.3",
-      "aliases": []
-    },
-    {
       "language": "python",
       "version": "3.10.0",
       "aliases": [
@@ -67,7 +62,7 @@ export const languageOptions = [
       "runtime": "gcc"
     },
     {
-      "language": "Java",
+      "language": "java",
       "version": "15.0.2",
       "aliases": []
     }
@@ -79,10 +74,6 @@ export const languageOptions = [
   
     typescript: `function sum(a: number, b: number): number {
       return a + b;
-    }`,
-  
-    php: `function sum($a, $b) {
-      return $a + $b;
     }`,
   
     python: `def sum(a, b):
