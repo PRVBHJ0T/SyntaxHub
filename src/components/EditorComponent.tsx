@@ -77,7 +77,7 @@ export default function EditorComponent() {
             theme === "light" ? "text-black" : "text-white"
           }`}
         >
-          Prabhjot Coder
+          Syntax Hub
         </h2>
         <div className="flex items-center space-x-2">
           <ModeToggleBtn />
