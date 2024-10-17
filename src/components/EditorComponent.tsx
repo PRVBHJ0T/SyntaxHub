@@ -20,7 +20,7 @@ import { Loader } from "lucide-react";
 import { editor as monacoEditor } from "monaco-editor"; // Import Monaco Editor types
 
 export default function EditorComponent() {
-  const { theme } = useTheme("dark");
+  const { theme } = useTheme();
   const [sourceCode, setSourceCode] = useState(codeSnippets["javascript"]); // default language is JavaScript
   const [languageOption, setLanguageOption] = useState(languageOptions[0]);
   const [loading, setLoading] = useState(false);
